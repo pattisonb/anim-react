@@ -9,7 +9,6 @@ function App() {
         <Route path="" element={<HomePage />}></Route>
         <Route path="/privacyPolicy" element={<PrivacyPolicy />}></Route>
       </Routes>
-
     </BrowserRouter>
   );
 }
