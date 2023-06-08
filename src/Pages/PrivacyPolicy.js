@@ -12,7 +12,7 @@ export class PrivacyPolicy extends Component {
 
   render () {
     return (
-        <div>
+        <div style={{ padding: 20 }}>
   <div>
     <strong>
       <span style={{ fontSize: 26 }}>
