@@ -1,3 +1,19 @@
+:root {
+  --background: #ffffff; /* Default light mode color */
+  --darkBackground: #1b1718;
+  --red: #ec3230;
+  --blue: #38BDF8;
+  --green: #10e38a;
+  color: #1b1718;
+  font-family: 'Nunito', sans-serif; /* Set Nunito as the default font */
+}
+
+.dark-mode {
+  background: #1b1718;
+  color: #fff;
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
