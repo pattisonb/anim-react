@@ -92,4 +92,42 @@
       display: flex;
     }
   }
+
+  .navbar-close-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .x-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 2px;
+    background-color: #1b1718;
+  }
+  
+  .x-icon::before,
+  .x-icon::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background-color: #1b1718;
+  }
+  
+  .x-icon::before {
+    transform: rotate(45deg);
+  }
+  
+  .x-icon::after {
+    transform: rotate(-45deg);
+  }
+  
   

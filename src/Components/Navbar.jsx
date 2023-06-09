@@ -22,15 +22,15 @@ const Navbar = () => {
       <div className="navbar-spacing">
         <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <li>
-            <Link to="/PrivacyPolicy">Privacy Policy</Link>
+            <Link to="/PrivacyPolicy">PRIVACY POLICY</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">CONTACT</Link>
           </li>
           {isOpen && (
             <li>
               <button className="navbar-close-button" onClick={toggleMenu}>
-                Close
+                CLOSE
               </button>
             </li>
           )}
