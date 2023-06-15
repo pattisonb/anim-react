@@ -2,10 +2,11 @@
 
 :root {
   --background: #ffffff; /* Default light mode color */
+  --primary: #1b1718;
   --darkBackground: #1b1718;
   --red: #ec3230;
   --blue: #38BDF8;
-  --green: #10e38a;
+  --green: #5fc38d;
   color: #1b1718;
   font-family: 'DM+Sans', sans-serif; 
   font-weight: 700;
@@ -17,7 +18,8 @@
 }
 
 .appStore {
-  height: 11.5%;
+  height: 11.5vh;
+  margin-bottom: 10vh;
 }
 
 .App {
