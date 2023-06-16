@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import { Image } from 'react-bootstrap';
 import appStore from "../Assets/appStoreDownload.png";
 import animDisplay from "../Assets/animPhone.png"
