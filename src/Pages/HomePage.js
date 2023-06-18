@@ -19,14 +19,14 @@ const HomePage = () => {
         </div>
       </div>
       <div className="right-div">
-      <div className="App">
-              <img
-            src={animDisplay}
-            className="App-logo"
-            alt="logo"
-            style={{ height: '800px' }} // Adjust the height value as per your requirement
-          />
-            </div>
+        <div className="App">
+            <img
+                src={animDisplay}
+                className="App-logo"
+                alt="logo"
+                style={{ height: '800px' }} // Adjust the height value as per your requirement
+            />
+        </div>
       </div>
     </div>
   );

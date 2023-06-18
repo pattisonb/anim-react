@@ -1,56 +1,52 @@
 .home-page {
-  display: flex;
-  min-height: 100vh; /* Use min-height to prevent cutting off the image */
-  background-color: var(--background);
-}
-
-.left-div {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  animation: fade-in 1s ease-in-out forwards;
-}
-
-.right-div {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  animation: fade-in 1s ease-in-out forwards;
-}
-
-.inner-element {
-  margin: 20px;
-  padding: 20px;
-}
-
-.App-logo {
-  max-width: 100%; /* Make the image responsive */
-  height: auto; /* Allow the image to scale while maintaining aspect ratio */
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
+    display: flex;
+    height: 100vh;
+    background-color: var(--background);
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 768px) {
-  .home-page {
+  
+  .left-div {
+    width: 50%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
   }
-  .left-div,
+  
   .right-div {
-    width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
   }
-}
+  
+  .inner-element {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-page {
+      flex-direction: column;
+    }
+    .left-div,
+    .right-div {
+      width: 100%;
+    }
+  }
+  
