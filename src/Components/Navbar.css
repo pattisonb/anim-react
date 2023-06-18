@@ -29,7 +29,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--green);
   margin-left: 20px;
   font-weight: 700;
 }
@@ -75,7 +75,7 @@
 
 .side-menu-link {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--background);
   font-weight: bold;
   font-size: 25px;
   padding: 10px 0;
@@ -86,8 +86,8 @@
   display: block;
   margin-bottom: 10px;
   padding: 5px 10px;
-  color: var(--primary);
-  border: 2px solid var(--primary);
+  color: var(--background);
+  border: 2px solid var(--background);
   border-radius: 20px;
   background-color: transparent;
   cursor: pointer;

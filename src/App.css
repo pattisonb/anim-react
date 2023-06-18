@@ -7,7 +7,8 @@
   --red: #ec3230;
   --blue: #38BDF8;
   --green: #5fc38d;
-  color: #1b1718;
+  /* color: #1b1718; */
+  color: #5fc38d;
   font-family: 'DM+Sans', sans-serif; 
   font-weight: 700;
 }
