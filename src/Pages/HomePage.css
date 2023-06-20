@@ -40,10 +40,11 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     .home-page {
       flex-direction: column;
     }
+  
     .left-div,
     .right-div {
       width: 100%;
