@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../logo.svg';
+import logoWhite from '../logoWhite.svg'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -68,7 +69,7 @@ const Navbar = () => {
       <ul>
         <li>
           <NavLink exact to="/" className="side-menu-link" onClick={closeMenu}>
-            <img src={logo} alt="Logo" />
+            <img src={logoWhite} alt="Logo" />
           </NavLink>
         </li>
         <li>
